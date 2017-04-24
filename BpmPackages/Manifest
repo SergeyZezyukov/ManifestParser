@@ -1,0 +1,765 @@
+{
+  "Packages": [
+    {
+      "UId": "11202d8d-9987-4946-9c57-511679513cb7",
+      "PackageVersion": "7.7.0",
+      "Name": "_SalesUp_OneCBase",
+      "ModifiedOnUtc": "\/Date(1460211392000)\/",
+      "Maintainer": "Customer",
+      "DependsOn": [
+        {
+          "UId": "5be3998b-c5c3-42bb-a01c-2e4149059a97",
+          "PackageVersion": "7.7.0",
+          "Name": "Base"
+        }
+      ],
+      "Schemas": [
+        {
+          "UId": "81847ce7-e176-405f-8e81-de1c3dd1cec5",
+          "Name": "OneCIntegrationUtilities",
+          "ModifiedOnUtc": "\/Date(1426262424000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "OneCIntegrationUtilities"
+        },
+        {
+          "UId": "6798c8c0-ba87-467b-9378-dd2399202495",
+          "Name": "OneCServiceClient",
+          "ModifiedOnUtc": "\/Date(1425979073000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "Веб-сервис клиента 1С"
+        },
+        {
+          "UId": "a9ffe72f-f586-4909-a1ef-2abf1cdcb1d6",
+          "Name": "OneCSyncProvider",
+          "ModifiedOnUtc": "\/Date(1429008337000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "Провайдер синхронизации 1С"
+        },
+        {
+          "UId": "c0ddf5c7-54c8-4e8b-9522-2ce32663f369",
+          "Name": "OneCSyncSettingsEditPage",
+          "ModifiedOnUtc": "\/Date(1472453246000)\/",
+          "Parent": {
+            "UId": "a5bcc8d7-215f-41c5-8f3c-f96f57d48c34",
+            "Name": "BaseEditPage"
+          },
+          "ManagerName": "PageSchemaManager",
+          "Caption": "Страница редактирования настроек интеграции с 1С"
+        },
+        {
+          "UId": "8e702518-0b42-4af7-8f07-3d8381f21fce",
+          "Name": "OpenOneCSynchronizationLog",
+          "ModifiedOnUtc": "\/Date(1425982587000)\/",
+          "ManagerName": "ProcessSchemaManager",
+          "Caption": "Открыть журнал синхронизации 1С"
+        },
+        {
+          "UId": "41cc1681-8dc3-437c-9fe1-d0b7df7d9040",
+          "Name": "SynchronizeAllOneCEntities",
+          "ModifiedOnUtc": "\/Date(1426523904000)\/",
+          "ManagerName": "ProcessSchemaManager",
+          "Caption": "Синхронизировать все сущности 1С"
+        },
+        {
+          "UId": "67a810b7-59b7-4190-9600-d9a8fd57e6bf",
+          "Name": "OneCConfigurationConstants",
+          "ModifiedOnUtc": "\/Date(1425979036000)\/",
+          "ManagerName": "ClientUnitSchemaManager",
+          "Caption": "Константы конфигурации 1С"
+        },
+        {
+          "UId": "20a4fdd7-0c85-4ce2-b2c1-206b6e8adcba",
+          "Name": "OneCSyncManager",
+          "ModifiedOnUtc": "\/Date(1426260132000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "Менеджер синхронизаций с несколькими БД 1С"
+        },
+        {
+          "UId": "1687cf11-af41-44a8-80f3-fc0862f415b7",
+          "Name": "OneCUserSettings",
+          "ModifiedOnUtc": "\/Date(1426262912000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "Настройки 1С"
+        },
+        {
+          "UId": "af60e06e-5cea-4222-bdc9-47294c80b789",
+          "Name": "OneCSyncUtilities",
+          "ModifiedOnUtc": "\/Date(1426511281000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "OneCSyncUtilities"
+        },
+        {
+          "UId": "e73542f0-c469-49ee-9ea1-88b362d963b4",
+          "Name": "GlobalSyncStringValue",
+          "ModifiedOnUtc": "\/Date(1426511396000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "Строковые константы 1С"
+        },
+        {
+          "UId": "e2ca844e-e674-4d42-8fc3-76b9ab9b173d",
+          "Name": "GlobalSyncValues",
+          "ModifiedOnUtc": "\/Date(1425978876000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "Глобальные настройки синхронизации 1С"
+        },
+        {
+          "UId": "cc0fb9ee-bcde-4564-b8e1-7efa2089dce3",
+          "Name": "IntegrationLogGridPage",
+          "ModifiedOnUtc": "\/Date(1426176942000)\/",
+          "Parent": {
+            "UId": "49045869-5dc5-42d7-b93f-9e6e1d1027f7",
+            "Name": "IntegrationLogGridPage"
+          },
+          "ExtendParent": true,
+          "ManagerName": "PageSchemaManager",
+          "Caption": "Cтраница реестра Журнала интеграции"
+        },
+        {
+          "UId": "6252ce5c-f998-406b-8ca8-cef16bdd87bf",
+          "Name": "LocalizableConsts",
+          "ModifiedOnUtc": "\/Date(1427725063000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "Локализованные константы синхронизации 1С"
+        },
+        {
+          "UId": "62a61100-6787-4798-9151-4909dec1808c",
+          "Name": "OneCBase",
+          "ModifiedOnUtc": "\/Date(1460568117000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "Базовый объект 1С"
+        },
+        {
+          "UId": "50d7cea6-a17c-4589-a053-03b752c1fc0e",
+          "Name": "OneCEntityFactory",
+          "ModifiedOnUtc": "\/Date(1425979049000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "Фабрика объектов 1С"
+        },
+        {
+          "UId": "4e71b216-75e1-499f-a303-f056218c0382",
+          "Name": "OneCIntegrationSettings",
+          "ModifiedOnUtc": "\/Date(1472723721000)\/",
+          "Parent": {
+            "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+            "Name": "BaseEntity"
+          },
+          "ManagerName": "EntitySchemaManager",
+          "Caption": "Настройки интеграции с 1С"
+        },
+        {
+          "UId": "0e0d62f0-380e-43dc-a014-2ce853c626a9",
+          "Name": "CommunicationKindMapping",
+          "ModifiedOnUtc": "\/Date(1460723793000)\/",
+          "Parent": {
+            "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+            "Name": "BaseLookup"
+          },
+          "ManagerName": "EntitySchemaManager",
+          "Caption": "Маппинг Вида контактной информации 1С"
+        },
+        {
+          "UId": "ca7138ad-8bf1-4c0a-8768-85e0ce4d0b0d",
+          "Name": "DownloadHelper",
+          "ModifiedOnUtc": "\/Date(1425988462000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "DownloadHelper"
+        },
+        {
+          "UId": "3d41fc82-30c6-4d3e-8d62-8ccbaf29fc01",
+          "Name": "IntegrationKeepAliveProcess",
+          "ModifiedOnUtc": "\/Date(1425978887000)\/",
+          "ManagerName": "ProcessSchemaManager",
+          "Caption": "Бизнес-процесс периодического опроса сайта интеграции"
+        },
+        {
+          "UId": "3a3bbb75-f586-4938-834e-9b3e2f5fb8e4",
+          "Name": "IntegrationSemaphores",
+          "ModifiedOnUtc": "\/Date(1429008627000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "IntegrationSemaphores"
+        },
+        {
+          "UId": "6097aca0-de8c-4250-9b43-088fe95093f1",
+          "Name": "OneCServiceEntityProxy",
+          "ModifiedOnUtc": "\/Date(1425979084000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "Прокси объекта синхронизации 1С"
+        },
+        {
+          "UId": "29a26804-c069-499b-a7b3-fc7122db3777",
+          "Name": "RemindingUtils",
+          "ModifiedOnUtc": "\/Date(1425979165000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "RemindingUtils"
+        }
+      ],
+      "Assemblies": [],
+      "SqlScripts": [],
+      "Data": [
+        {
+          "UId": "635dff42-0421-47e3-8bc4-112285b4042c",
+          "Name": "SysSettingsValue",
+          "ModifiedOnUtc": "\/Date(1460212067000)\/",
+          "Schema": {
+            "UId": "951b2bbb-0ba3-4049-9a29-b5d4c0b6d50f",
+            "Name": "SysSettingsValue"
+          },
+          "Columns": [
+            {
+              "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+              "IsKey": true,
+              "ColumnName": "Id",
+              "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+            },
+            {
+              "ColumnUId": "0fde6f1e-22c5-48c7-9c89-6f0031e270de",
+              "ColumnName": "SysSettings",
+              "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+            },
+            {
+              "ColumnUId": "8f1984bb-7bef-4220-9b49-9a12d0ebcd68",
+              "ColumnName": "SysAdminUnit",
+              "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+            },
+            {
+              "ColumnUId": "55472376-a4dd-40da-86c6-975ce4b898fa",
+              "ColumnName": "IsDef",
+              "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
+            },
+            {
+              "ColumnUId": "af6013ce-7387-4619-b4f4-30c4276fcfac",
+              "ColumnName": "TextValue",
+              "DataTypeValueUId": "c0f04627-4620-4bc0-84e5-9419dc8516b1"
+            },
+            {
+              "ColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
+              "ColumnName": "IntegerValue",
+              "DataTypeValueUId": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+            },
+            {
+              "ColumnUId": "b1ffd2d8-2bd3-4c46-b9c0-782afb0996c0",
+              "ColumnName": "FloatValue",
+              "DataTypeValueUId": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
+            },
+            {
+              "ColumnUId": "297f4697-d071-4be2-8509-9090c07dfe18",
+              "ColumnName": "BooleanValue",
+              "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
+            },
+            {
+              "ColumnUId": "34f73492-296e-4a73-95f7-e7de5a3b3509",
+              "ColumnName": "DateTimeValue",
+              "DataTypeValueUId": "d21e9ef4-c064-4012-b286-fa1a8171da44"
+            },
+            {
+              "ColumnUId": "23c7dde8-7cf5-4f18-9d76-0fa4179ee931",
+              "ColumnName": "GuidValue",
+              "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+            },
+            {
+              "ColumnUId": "ffd545dd-d2de-40d7-8b07-20654613bb20",
+              "ColumnName": "BinaryValue",
+              "DataTypeValueUId": "b7342b7a-5dde-40de-aa7c-24d2a57b3202"
+            },
+            {
+              "ColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
+              "ColumnName": "Position",
+              "DataTypeValueUId": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+            }
+          ]
+        },
+        {
+          "UId": "0c604a27-7311-495d-b98a-47fad8a47344",
+          "Name": "CanUseOneCIntegrationOperation",
+          "ModifiedOnUtc": "\/Date(1426169452000)\/",
+          "Schema": {
+            "UId": "c8fd2fd0-1f44-48c7-84e4-045250b9a638",
+            "Name": "SysAdminOperation"
+          },
+          "Columns": [
+            {
+              "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+              "IsKey": true,
+              "IsForceUpdate": true
+            },
+            {
+              "ColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
+              "IsForceUpdate": true
+            },
+            {
+              "ColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
+              "IsForceUpdate": true
+            },
+            {
+              "ColumnUId": "2aec9cef-232e-413a-9a5a-9ddde2e8a2af",
+              "IsForceUpdate": true
+            },
+            {
+              "ColumnUId": "a2987d84-12ca-4f95-a27f-54d1cfc2517d",
+              "IsForceUpdate": true
+            }
+          ]
+        },
+        {
+          "UId": "ef70d301-0b53-4554-98ea-4fa2f21a029c",
+          "Name": "SysSettings",
+          "ModifiedOnUtc": "\/Date(1460211824000)\/",
+          "Schema": {
+            "UId": "27aeadd6-d508-4572-8061-5b55b667c902",
+            "Name": "SysSettings"
+          },
+          "Columns": [
+            {
+              "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+              "IsKey": true,
+              "ColumnName": "Id",
+              "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+            },
+            {
+              "ColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
+              "ColumnName": "Name",
+              "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+            },
+            {
+              "ColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
+              "ColumnName": "Description",
+              "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+            },
+            {
+              "ColumnUId": "13aad544-ec30-4e76-a373-f0cff3202e24",
+              "ColumnName": "Code",
+              "DataTypeValueUId": "325a73b8-0f47-44a0-8412-7606f78003ac"
+            },
+            {
+              "ColumnUId": "f7960a8a-1fd4-41d2-997a-fd78ea60075f",
+              "ColumnName": "ValueTypeName",
+              "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+            },
+            {
+              "ColumnUId": "3fd9f15d-37f4-4f91-a6cf-f222d54e342d",
+              "ColumnName": "SysFolder",
+              "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+            },
+            {
+              "ColumnUId": "764cd95a-59b3-4060-b17f-2797d5c76aaa",
+              "ColumnName": "IsPersonal",
+              "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
+            },
+            {
+              "ColumnUId": "eb971f1a-dd41-4668-99aa-1f2a6b61a1b9",
+              "ColumnName": "IsCacheable",
+              "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
+            },
+            {
+              "ColumnUId": "b2280617-35f9-4006-8634-c557a2e121c2",
+              "ColumnName": "ReferenceSchemaUId",
+              "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+            },
+            {
+              "ColumnUId": "64fadca1-ab7c-4471-9d25-68599acc729b",
+              "ColumnName": "IsSSPAvailable",
+              "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
+            }
+          ]
+        },
+        {
+          "UId": "47890bd0-9031-4592-8aeb-7474fbabad8e",
+          "Name": "SysSettingsFolder",
+          "ModifiedOnUtc": "\/Date(1460211609000)\/",
+          "Schema": {
+            "UId": "81996156-45e6-40de-931e-6ddc6f75cd7e",
+            "Name": "SysSettingsFolder"
+          },
+          "Columns": [
+            {
+              "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+              "IsKey": true,
+              "ColumnName": "Id",
+              "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+            },
+            {
+              "ColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
+              "ColumnName": "Name",
+              "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+            },
+            {
+              "ColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
+              "ColumnName": "Description",
+              "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+            },
+            {
+              "ColumnUId": "527b9e4e-7dbf-4721-a112-72b423b3365a",
+              "ColumnName": "Parent",
+              "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+            },
+            {
+              "ColumnUId": "e44c8807-bc0e-4415-b41c-2272c8fbdf42",
+              "ColumnName": "FolderType",
+              "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+            },
+            {
+              "ColumnUId": "4d5be702-fa8a-4b6b-97d0-f666b99f108e",
+              "ColumnName": "SearchData",
+              "DataTypeValueUId": "b7342b7a-5dde-40de-aa7c-24d2a57b3202"
+            }
+          ]
+        },
+        {
+          "UId": "cf069452-b930-4078-8053-756e996595b2",
+          "Name": "SysSettingsInFolder",
+          "ModifiedOnUtc": "\/Date(1460211876000)\/",
+          "Schema": {
+            "UId": "fcd1648a-01fd-47f9-a42f-24f245d37768",
+            "Name": "SysSettingsInFolder"
+          },
+          "Columns": [
+            {
+              "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+              "IsKey": true,
+              "ColumnName": "Id",
+              "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+            },
+            {
+              "ColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+              "ColumnName": "Folder",
+              "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+            },
+            {
+              "ColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+              "ColumnName": "SysSettings",
+              "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+            }
+          ]
+        },
+        {
+          "UId": "72ed46dd-47f7-4da8-b663-1ddacbe82335",
+          "Name": "SysLookup_OneCIntegrationSettings",
+          "ModifiedOnUtc": "\/Date(1426497066000)\/",
+          "Schema": {
+            "UId": "aa3cc352-3095-43c9-ace8-6301f50a0a80",
+            "Name": "SysLookup"
+          },
+          "Columns": [
+            {
+              "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+              "IsKey": true,
+              "IsForceUpdate": true
+            },
+            {
+              "ColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
+              "IsForceUpdate": true
+            },
+            {
+              "ColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
+              "IsForceUpdate": true
+            },
+            {
+              "ColumnUId": "23c7bb46-18f7-491a-9b92-c5a0edca930f",
+              "IsForceUpdate": true
+            },
+            {
+              "ColumnUId": "f3217323-afc6-447c-804a-15fa195d05d2",
+              "IsForceUpdate": true
+            },
+            {
+              "ColumnUId": "4bf49c30-d507-421a-b144-3fba3208b580",
+              "IsForceUpdate": true
+            },
+            {
+              "ColumnUId": "ce28b9f4-8f90-43cc-8c04-ddfe968c59b2",
+              "IsForceUpdate": true
+            },
+            {
+              "ColumnUId": "9ca3a204-8d60-45a6-b16e-9384872071c3",
+              "IsForceUpdate": true
+            },
+            {
+              "ColumnUId": "cb2be0a9-94bf-4cde-8efb-eb6862e3b6e0",
+              "IsForceUpdate": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "UId": "1146c6f7-3510-4e6b-9141-ac7b2775a1af",
+      "PackageVersion": "7.7.0",
+      "Name": "_SalesUp_OneC",
+      "ModifiedOnUtc": "\/Date(1460213559000)\/",
+      "Maintainer": "Customer",
+      "DependsOn": [
+        {
+          "UId": "11202d8d-9987-4946-9c57-511679513cb7",
+          "PackageVersion": "7.7.0",
+          "Name": "_SalesUp_OneCBase"
+        }
+      ],
+      "Schemas": [
+        {
+          "UId": "9b220da2-d201-4150-9c18-8cdc75696e34",
+          "Name": "AddressUtils",
+          "ModifiedOnUtc": "\/Date(1473676752000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "AddressUtils"
+        },
+        {
+          "UId": "cd45e33c-3dd0-4b95-af8d-40abf965c00f",
+          "Name": "SuOneCAccount",
+          "ModifiedOnUtc": "\/Date(1473672445000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "1С Контрагент"
+        },
+        {
+          "UId": "28bcde9a-e68a-438f-a611-a1243e9c3522",
+          "Name": "FTPHelper",
+          "ModifiedOnUtc": "\/Date(1460205951000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "FTPHelper"
+        },
+        {
+          "UId": "931a59d6-1752-4732-adec-57534041b05e",
+          "Name": "OneCUTPSyncProvider",
+          "ModifiedOnUtc": "\/Date(1474055644000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "Провайдер синхронизации 1С КА"
+        },
+        {
+          "UId": "19e32326-f8fc-4a95-a862-24c94736280b",
+          "Name": "QuartzConfigEditPage",
+          "ModifiedOnUtc": "\/Date(1465937208000)\/",
+          "Parent": {
+            "UId": "a5bcc8d7-215f-41c5-8f3c-f96f57d48c34",
+            "Name": "BaseEditPage"
+          },
+          "ManagerName": "PageSchemaManager",
+          "Caption": "Страница редактирования Quartz триггеров"
+        },
+        {
+          "UId": "4f985731-8e1c-4a84-b239-1f62daa8f25b",
+          "Name": "QuartzConfigGridPage",
+          "ModifiedOnUtc": "\/Date(1465937150000)\/",
+          "Parent": {
+            "UId": "96384a2c-cd4f-4c29-acda-49d24ea3ef73",
+            "Name": "BaseGridPage"
+          },
+          "ManagerName": "PageSchemaManager",
+          "Caption": "Страница настройки Quartz триггеров"
+        },
+        {
+          "UId": "78cb5060-7db9-4f04-bfe6-c5661e2094dd",
+          "Name": "SynchronizeOneC",
+          "ModifiedOnUtc": "\/Date(1474124964000)\/",
+          "ManagerName": "ProcessSchemaManager",
+          "Caption": "Синхронизация с 1С"
+        },
+        {
+          "UId": "df155d4e-3d82-4591-8fe9-381303e4130d",
+          "Name": "SuOneCAccountBillingInfo",
+          "ModifiedOnUtc": "\/Date(1473683222000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "1С Патежные реквизиты"
+        },
+        {
+          "UId": "7e32cd5b-e1e7-494e-97c8-4d00a7194c9e",
+          "Name": "OneCAccountOwnership",
+          "ModifiedOnUtc": "\/Date(1460931943000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "1С Форма собственности"
+        },
+        {
+          "UId": "ee90324a-49be-49a8-b323-03dbe9a5bcc7",
+          "Name": "SuOneCCommunicationKindMapping",
+          "ModifiedOnUtc": "\/Date(1472486720000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "1С Вид контактной информации"
+        },
+        {
+          "UId": "9b90ba12-5032-4f56-8718-dd7ad46486db",
+          "Name": "OneCCommunicativeBase",
+          "ModifiedOnUtc": "\/Date(1473670185000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "Базовый объект с контактной информацией 1С"
+        },
+        {
+          "UId": "9debc993-e15a-47bf-8509-6b54ffae8c8b",
+          "Name": "OneCConsts",
+          "ModifiedOnUtc": "\/Date(1461087508000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "OneCConsts"
+        },
+        {
+          "UId": "a39e8ac8-22b9-4ba7-9fc5-1b2f3c1ead12",
+          "Name": "OneCContact",
+          "ModifiedOnUtc": "\/Date(1473419127000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "1С Контактные лица"
+        },
+        {
+          "UId": "84a223db-0f41-4d70-ba2a-50a18d4f246d",
+          "Name": "OneCContactAccount",
+          "ModifiedOnUtc": "\/Date(1461027062000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "1С Контактные лица контрагентов"
+        },
+        {
+          "UId": "dfc38995-936a-4911-b0bb-0750d940ff16",
+          "Name": "OneCCurrency",
+          "ModifiedOnUtc": "\/Date(1463438934000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "1С Валюта"
+        },
+        {
+          "UId": "a89028e8-8a48-4251-a04b-a79f0d848a0f",
+          "Name": "SuOneCOpportunity",
+          "ModifiedOnUtc": "\/Date(1472644977000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "1С Продажа"
+        },
+        {
+          "UId": "30dc6e60-b7a8-4440-9c82-36ee5f3ad873",
+          "Name": "SuOneCInvoice",
+          "ModifiedOnUtc": "\/Date(1474123880000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "1С Счета"
+        },
+        {
+          "UId": "2600f40c-2314-4995-b1a7-ffed617c56f5",
+          "Name": "OneCOrder",
+          "ModifiedOnUtc": "\/Date(1464794004000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "1С Заказ"
+        },
+        {
+          "UId": "dc88bbec-2c28-4dbd-9952-40f727d4b9d7",
+          "Name": "OneCPricelist",
+          "ModifiedOnUtc": "\/Date(1461173940000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "1С Тип цен номенклатуры"
+        },
+        {
+          "UId": "c294d205-ac9f-4e78-a515-481c19a1c991",
+          "Name": "OneCProductUnit",
+          "ModifiedOnUtc": "\/Date(1473097174000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "1С Единицы измерения"
+        },
+        {
+          "UId": "76225acd-4eea-40f0-8a25-1b18677bedd8",
+          "Name": "OneCProduct",
+          "ModifiedOnUtc": "\/Date(1473323131000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "1С Продукты"
+        },
+        {
+          "UId": "2b325dae-d765-4411-86c9-18e21666fca3",
+          "Name": "OneCUnit",
+          "ModifiedOnUtc": "\/Date(1461102800000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "1С Классификатор единиц измерения"
+        },
+        {
+          "UId": "8d972a4d-e881-4944-a6e4-8a6ab0c59898",
+          "Name": "OneCUser",
+          "ModifiedOnUtc": "\/Date(1461088460000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "1С Пользователи"
+        },
+        {
+          "UId": "00d90dbc-9807-4d0d-ba91-aea4e907aa5b",
+          "Name": "OneCWarehouse",
+          "ModifiedOnUtc": "\/Date(1461158888000)\/",
+          "ManagerName": "SourceCodeSchemaManager",
+          "Caption": "1С Склад"
+        },
+        {
+          "UId": "c2b04b89-de8e-487b-91ce-4dc7af687e12",
+          "Name": "UsrVwQuartzConfig",
+          "ModifiedOnUtc": "\/Date(1465936642000)\/",
+          "ManagerName": "EntitySchemaManager",
+          "Caption": "vwQuartzConfig"
+        }
+      ],
+      "Assemblies": [],
+      "SqlScripts": [
+        {
+          "UId": "a4dd3159-68a2-470e-9e93-5973a5304b64",
+          "Name": "UsrVwQuartzConfig",
+          "InstallType": 1,
+          "ModifiedOnUtc": "\/Date(1466163839000)\/",
+          "DependsOn": []
+        }
+      ],
+      "Data": [
+        {
+          "UId": "d43204ab-57c2-4c86-9d6d-f3ef4c1b5fd2",
+          "Name": "LookupInFolder",
+          "ModifiedOnUtc": "\/Date(1460917520000)\/",
+          "Schema": {
+            "UId": "ef4ef612-076e-4770-b0b1-9111e8a33116",
+            "Name": "LookupInFolder"
+          },
+          "Columns": [
+            {
+              "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+              "IsKey": true,
+              "ColumnName": "Id",
+              "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+            },
+            {
+              "ColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+              "ColumnName": "Folder",
+              "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+            },
+            {
+              "ColumnUId": "34391227-ac90-4b55-9739-6720e97a0594",
+              "ColumnName": "Lookup",
+              "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+            }
+          ]
+        },
+        {
+          "UId": "18827b7b-763a-4b31-812e-aa9d8d2cd637",
+          "Name": "Lookup",
+          "ModifiedOnUtc": "\/Date(1460917515000)\/",
+          "Schema": {
+            "UId": "2aecdb97-990e-4c17-96f4-240ca6531c84",
+            "Name": "Lookup"
+          },
+          "Columns": [
+            {
+              "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+              "IsKey": true,
+              "ColumnName": "Id",
+              "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+            },
+            {
+              "ColumnUId": "547bff8d-f717-4316-846c-3ff1f0e36e6e",
+              "ColumnName": "Name",
+              "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+            },
+            {
+              "ColumnUId": "009571ab-9c5d-4a20-bf83-dd499ed5a833",
+              "ColumnName": "Description",
+              "DataTypeValueUId": "c0f04627-4620-4bc0-84e5-9419dc8516b1"
+            },
+            {
+              "ColumnUId": "91bcbbaa-7f66-4cbf-9de4-9170da8b8d4b",
+              "ColumnName": "SysEntitySchemaUId",
+              "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+            },
+            {
+              "ColumnUId": "8b099885-e3bc-4585-920d-a497f2611e2c",
+              "ColumnName": "SysLookup",
+              "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+            },
+            {
+              "ColumnUId": "91f76f42-e24d-4ebd-95b3-5b5517e917c3",
+              "ColumnName": "SysPageSchemaUId",
+              "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

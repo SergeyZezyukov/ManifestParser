@@ -1,0 +1,12 @@
+c:\users\семья\documents\visual studio 2015\Projects\Manifest parser\Manifest parser\bin\Debug\Manifest parser.exe.config
+D:\My Documents\Visual Studio 2015\Projects\Manifest parser\Manifest parser\bin\Debug\Manifest parser.exe.config
+D:\My Documents\Visual Studio 2015\Projects\Manifest parser\Manifest parser\bin\Debug\Manifest parser.exe
+D:\My Documents\Visual Studio 2015\Projects\Manifest parser\Manifest parser\bin\Debug\Manifest parser.pdb
+D:\My Documents\Visual Studio 2015\Projects\Manifest parser\Manifest parser\bin\Debug\Newtonsoft.Json.dll
+D:\My Documents\Visual Studio 2015\Projects\Manifest parser\Manifest parser\bin\Debug\Newtonsoft.Json.xml
+D:\My Documents\Visual Studio 2015\Projects\Manifest parser\Manifest parser\obj\Debug\Manifest parser.csprojResolveAssemblyReference.cache
+D:\My Documents\Visual Studio 2015\Projects\Manifest parser\Manifest parser\obj\Debug\Manifest parser.exe
+D:\My Documents\Visual Studio 2015\Projects\Manifest parser\Manifest parser\obj\Debug\Manifest parser.pdb
+C:\Users\Семья\Source\Repos\ManifestParser\Manifest parser\bin\Debug\Manifest parser.exe.config
+C:\Users\Семья\Source\Repos\ManifestParser\Manifest parser\obj\Debug\Manifest parser.exe
+C:\Users\Семья\Source\Repos\ManifestParser\Manifest parser\obj\Debug\Manifest parser.pdb
