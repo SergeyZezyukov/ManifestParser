@@ -16,6 +16,7 @@ namespace Manifest_parser
             var json = File.ReadAllText(path + @"\Manifest");
             var sourse = JsonConvert.DeserializeObject<RootObject>(json);
 
+
             var dest = new RootObject();
             dest.Packages = sourse.Packages.Where(i => i.Name.Contains("_SalesUp_")).ToList();
 
